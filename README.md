@@ -1,4 +1,5 @@
-# ICPC-2019-preli
+# ICPC-2019-preli using DSU + PBDS
+# Multi Order Set
 
 B. The Social Network
 
@@ -21,9 +22,9 @@ Input
 
 The first line contains an integer TC (1 ≤ TC ≤ 4) denoting the number of test cases. Each test case starts with two space separated integers N (1 ≤ N ≤ 105), Q (1 ≤ Q ≤ 3*105) denoting the number of users and number of queries respectively. Next Q lines contains one of these types of queries.
 
-0 U V (1 ≤ U, V ≤ N, U ≠ V)
-1 U T (1 ≤ U ≤ N), (1 ≤ T ≤ 109)
-2 U L R (1 ≤ U ≤ N), (1 ≤ L ≤ R ≤ 109)
+<p> 0 U V (1 ≤ U, V ≤ N, U ≠ V) </p>
+<p> 1 U T (1 ≤ U ≤ N), (1 ≤ T ≤ 109) </p>
+<p> 2 U L R (1 ≤ U ≤ N), (1 ≤ L ≤ R ≤ 109) </p>
 
 
 Output
@@ -31,8 +32,8 @@ Output
 For each test case, print the case number and for each query of type 2 U L R, print the number of posts that user U will see from time L to R inclusive in a new line. You can safely assume that the result of a 2 U L R type query will not be affected by any subsequent queries. Please see sample for details.
 
 Sample
-Input	Output
-2
+Input	
+2 
 3 6
 1 2 7
 2 1 1 10
