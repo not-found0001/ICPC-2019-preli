@@ -1,5 +1,12 @@
-# ICPC-2019-preli using DSU + PBDS
+# ICPC-2019-preli
+
+#########################################################
+
+# Problem B
+# Solution: DSU + PBDS
 # Ordered Multi Set
+
+#########################################################
 
 B. The Social Network
 
