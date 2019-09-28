@@ -1,5 +1,5 @@
 # ICPC-2019-preli using DSU + PBDS
-# Multi Order Set
+# Ordered Multi Set
 
 B. The Social Network
 
@@ -32,20 +32,32 @@ Output
 For each test case, print the case number and for each query of type 2 U L R, print the number of posts that user U will see from time L to R inclusive in a new line. You can safely assume that the result of a 2 U L R type query will not be affected by any subsequent queries. Please see sample for details.
 
 Sample
+
 Input	
-2 
-3 6
-1 2 7
-2 1 1 10
-0 2 1
-2 1 1 10
-1 2 1
-2 1 1 10
-3 7
-1 3 2
-1 1 100
-1 1 2
-0 1 3
-0 2 1
-2 2 1 10
-2 1 2 2
+
+<p> 2 </p>
+<p> 3 6 </p>
+<p> 1 2 7 </p>
+<p> 2 1 1 10 </p>
+<p> 0 2 1 </p>
+<p> 2 1 1 10 </p>
+<p> 1 2 1 </p>
+<p> 2 1 1 10 </p>
+<p> 3 7 </p>
+<p> 1 3 2 </p>
+<p> 1 1 100 </p>
+<p> 1 1 2 </p>
+<p> 0 1 3 </p>
+<p> 0 2 1 </p>
+<p> 2 2 1 10 </p>
+<p> 2 1 2 2 </p>
+
+<p> Output </p>
+
+<p> Case 1: </p>
+<p> 0 </p>
+<p> 1 </p>
+<p> 2 </p>
+<p> Case 2: </p>
+<p> 2 </p>
+<p> 2 </p>
